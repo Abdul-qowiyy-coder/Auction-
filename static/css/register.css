@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:wght@700&family=Courgette&family=Kdam+Thmor+Pro&family=Koulen&family=Lato&family=Merriweather:wght@300;700&family=Nuosu+SIL&family=Oswald&family=Overpass:wght@300&family=PT+Sans+Narrow&family=PT+Serif:ital@1&family=Pacifico&family=Roboto+Condensed:wght@300&family=Square+Peg&display=swap');
+:root{
+  --heading-font:'Charis SIL', serif;
+  --dark-color:#000;
+  --wihte-color:#fff;
+}
+body{
+  background-color:var(--wihte-color);
+  background-size:cover;
+  font-family:var(--heading-font)
+ }
+ 
+ .frame{
+ max-width:350px;
+ border-radius:20px;
+ margin:auto;
+ background:var(--wihte-color);
+ box-sizing:border-box;
+ padding:20px;
+ color:var(--wihte-color);
+ margin-top:100px;
+ margin-bottom:100px;
+ border: 1px solid var(--dark-color);
+ }
+ h2{
+  text-align:center;
+  color:var(--dark-color);
+ }
+ input[type=text],input[type=password],input[type=tel],input[type=email]{
+                    width:100%;
+                    box-sizing:border-box;
+                    padding:12px 5px;
+              background:var(--wihte-color);
+        outline:none;
+        border:none;
+        border-bottom:1px dotted var(--dark-color);
+        color:var(--dark-color);
+        border-radius:5px;
+        margin:5px;
+        font-weight:bold;
+ }
+ input[type=submit]{
+                    width:100%;
+                    box-sizing:border-box;
+                    padding:10px 0;
+                    outline:none;
+                    border:none;
+                    background:var(--dark-color);
+                    opacity:0.7;
+                    border-radius:20px;
+                    font-size:20px;
+                    color:var(--wihte-color);
+ }
+input{
+  font-family: var(--heading-font);
+  color: var(--dark-color);
+}
+
+ 
+ 
+

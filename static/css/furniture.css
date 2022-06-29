@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:wght@700&family=Courgette&family=Kdam+Thmor+Pro&family=Koulen&family=Lato&family=Merriweather:wght@300;700&family=Oswald&family=Overpass:wght@300&family=PT+Sans+Narrow&family=PT+Serif:ital@1&family=Pacifico&family=Roboto+Condensed:wght@300&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:wght@700&family=Courgette&family=Kdam+Thmor+Pro&family=Koulen&family=Lato&family=Merriweather:wght@300;700&family=Nuosu+SIL&family=Oswald&family=Overpass:wght@300&family=PT+Sans+Narrow&family=PT+Serif:ital@1&family=Pacifico&family=Roboto+Condensed:wght@300&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:wght@700&family=Courgette&family=Kdam+Thmor+Pro&family=Koulen&family=Lato&family=Merriweather:wght@300;700&family=Nuosu+SIL&family=Oswald&family=Overpass:wght@300&family=PT+Sans+Narrow&family=PT+Serif:ital@1&family=Pacifico&family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@300&family=Square+Peg&display=swap');
+:root{
+  --nav-font: 'Charis SIL', serif;
+  --heading-font:'Charis SIL', serif;
+   --p-font:'Roboto Slab', serif;
+   --dark-color:#000
+   --heading-color: hsl(0, 0%, 7%);
+   --date-text-color: hsl(0, 0%, 51%);
+   --previous-price-text-color: hsl(0, 98%, 44%);
+   --current-price-text-color: hsla(0, 0%, 0%, 0.822);
+   --liked-heart-icon-color: hsl(0, 98%, 44%);
+   --heart-icon-color: whitesmoke;
+   --pricing-font-weight: 800;
+   --title-font-weight: 800;
+   --date-font-weight: 550;
+
+   /* Cards colors */
+   --card-main-color : whitesmoke;
+   --card-1-secondary-color: rgb(192, 82, 82);
+   --card-2-secondary-color: rgb(67,53,27);
+   --card-3-secondary-color: rgb(178,180,179);
+   --card-4-secondary-color: rgb(96,109,117);
+}
+
+/* genral styling */
+*{
+  padding: 0px;
+  margin: 0px;
+  user-select: none;
+  user-zoom: none;
+  box-sizing: border-box;
+}
+.nav-link{
+  font-family: var(--nav-font);
+  color:var(--dark-color) ;
+}
+.dropdown-item{
+  font-family: var(--nav-font);
+  color: var(--dark-color);
+}
+.dropdown-item:hover{
+  background-color: black;
+  color: #fff;
+ 
+}
+.btn {
+  font-family: var(--nav-font);
+}
+.btn > a{
+  color:black;
+  list-style: none;
+  text-decoration: none;
+}
+.btn > a:hover{
+  color: #fff;
+}
+#landing-page{
+  height:500px;
+  /* background-color: black; */
+}
+.navbar-brand{
+  font-family: var(--nav-font);
+  color: var(--dark-color);
+}
+.nav-link:hover{
+  border-bottom: 1px solid black;
+  /* transform: scale(1.1); */
+  color: var(--dark-color);
+  transition: all .25s ease;
+}
+.text{
+  font-family: var(--heading-font);
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--dark-color);
+  padding-top:3em ;
+}
+p{
+  font-family: var(--p-font);
+  color: var(--dark-color);
+ font-size: 1em;
+}
+#landing-page{
+  height: 500px;
+
+}
+#heading-1{
+  color: var(--dark-color);
+  font-weight: bold;
+  font-family: var(--heading-font);
+  font-size: 1.9em;
+  text-transform: capitalize;
+
+}
