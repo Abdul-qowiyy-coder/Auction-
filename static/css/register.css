@@ -9,6 +9,48 @@ body{
   background-size:cover;
   font-family:var(--heading-font)
  }
+
+ .nav-link{
+  font-family: var(--heading-font);
+  color:var(--dark-color) ;
+}
+.dropdown-item{
+  font-family: var(--heading-font);
+  color: var(--dark-color);
+}
+.dropdown-item:hover{
+  background-color: black;
+  color: #fff;
+ 
+}
+.btn {
+  font-family: var(--heading-font);
+}
+.btn > a{
+  color:black;
+  list-style: none;
+  text-decoration: none;
+}
+.btn > a:hover{
+  color: #fff;
+}
+#head{
+  background-color: #fff;
+}
+#landing-page{
+  height:500px;
+  /* background-color: black; */
+}
+.navbar-brand{
+  font-family: var(--nav-font);
+  color: var(--dark-color);
+}
+.nav-link:hover{
+  border-bottom: 1px solid black;
+  /* transform: scale(1.1); */
+  color: var(--dark-color);
+  transition: all .25s ease;
+}
  
  .frame{
  max-width:350px;

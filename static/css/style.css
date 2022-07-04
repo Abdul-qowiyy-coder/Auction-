@@ -11,10 +11,11 @@
    --previous-price-text-color: hsl(0, 98%, 44%);
    --current-price-text-color: hsla(0, 0%, 0%, 0.822);
    --liked-heart-icon-color: hsl(0, 98%, 44%);
-   --heart-icon-color: whitesmoke;
+   --heart-icon-color:black;
    --pricing-font-weight: 800;
    --title-font-weight: 800;
    --date-font-weight: 550;
+   --card-main-color : whitesmoke;
 
   
 }
@@ -25,6 +26,7 @@
   margin: 0;
   user-select: none;
   user-zoom: none;
+  /* overflow-x: hidden; */
   /* box-sizing: border-box; */
 }
 .nav-link{
@@ -62,14 +64,14 @@
   font-family: var(--nav-font);
   color: var(--dark-color);
 }
-#user-icon{
-  font-size: 23px;
-}
 .nav-link:hover{
   border-bottom: 1px solid black;
   /* transform: scale(1.1); */
   color: var(--dark-color);
   transition: all .25s ease;
+}
+#carousel-img{
+  margin-top: 2em;
 }
 .text{
   font-family: var(--heading-font);
@@ -115,6 +117,7 @@
   min-height: 30em;
   padding: 3em 1em 1em 1em;
   box-sizing: border-box;
+
 }
 
 /* Card Styling */
@@ -186,6 +189,7 @@
   opacity: 0;
   transform: scale(0);
   transition: transform 0.25s ease-in-out, opacity 0.2s ease-in-out;
+  
 }
 
 
@@ -200,9 +204,7 @@
   /* background-color: whitesmoke; */
 }
 
-.card-1 .like-icon-div{
-  background-color:#000;
-}
+
 
 
 /* Sekiro image and heart-background */
@@ -215,9 +217,6 @@
   transform: translateY(7.5%);
 }
 
-.card-2 .like-icon-div{
-  background-color: #000;
-}
 
 
 /* Dazai image and heart-background */
@@ -230,10 +229,7 @@
   transform: translateY(7.5%);
 }
 
-.card-3 .like-icon-div{
-  background-color:#000;
-  
-}
+
 
 /* U4 image and heart-background*/
 .u4-img-div{
@@ -450,6 +446,17 @@
   font-family: var(--p-font);
 } */
 
+#exampleModalLabel{
+  color: #000;
+  font-weight: bold;
+  font-family: var(--heading-font);
+}
+
+.modal-body{
+  color: #000;
+  font-family: var(--heading-font);
+}
+
 /* blog auction end */
 
 /* upcoming start */
@@ -484,15 +491,10 @@
 /*  media screen start*/
 @media (max-width: 768px) {
   #landing-page{
-    background-image: url(../img/img007.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     height: 600px;
   }
-  #landing-page-2{
-    display: none;
+  .text{
+    padding-top: 5px;
   }
   .dropdown-item:hover{
     background-color:black;
@@ -503,6 +505,11 @@
   }
   .card__overlay{
     height: 170px;
+  }
+  #cardss{
+    padding-top: 2em;
+    border: 1px solid black;
+    border-radius: 20px;
   }
   #card-upcoming{
     display: none;
