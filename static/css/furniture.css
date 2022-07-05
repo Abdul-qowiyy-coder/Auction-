@@ -66,6 +66,9 @@
   color: var(--dark-color);
   transition: all .25s ease;
 }
+#head{
+  background-color: white;
+}
 .text{
   font-family: var(--heading-font);
   font-size: 3em;
@@ -427,3 +430,10 @@ p{
   }
 }
 /* product-card end */
+
+@media (max-width:768px) {
+  .text{
+    padding-top: 5px;
+  } 
+
+}
