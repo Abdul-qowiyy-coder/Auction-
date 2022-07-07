@@ -441,6 +441,30 @@ p{
 }
 /* product-card end  */
 
+
+/* footer start */
+footer{
+  width: 100%;
+  height: fit-content;
+  background-color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+ }
+ footer a{
+  text-decoration: none;
+  text-align: center;
+  font-family: var(--p-font);
+ }
+
+ .navbrand {
+  font-family: var(--heading-font);
+  font-weight: bold;
+  font-size: 1.9em;
+  color: #000;
+ }
+/* footer end */
+
+/* media screen start */
 @media (max-width: 768px) {
   .text{
     padding-top: 0px;
@@ -452,3 +476,4 @@ p{
   margin-top: 4em;
  }
 }
+/* media screen end */

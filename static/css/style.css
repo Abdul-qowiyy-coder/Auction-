@@ -26,6 +26,7 @@
   margin: 0;
   user-select: none;
   user-zoom: none;
+  font-family: var(--heading-font);
   /* overflow-x: hidden; */
   /* box-sizing: border-box; */
 }
@@ -485,7 +486,24 @@
 /* upcoming end */
 
 /* footer start */
-
+ footer{
+  width: 100%;
+  height: fit-content;
+  background-color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+ }
+ footer a{
+  text-decoration: none;
+  text-align: center;
+  font-family: var(--p-font);
+ }
+ .navbrand {
+  font-family: var(--heading-font);
+  font-weight: bold;
+  font-size: 1.9em;
+  color: #000;
+ }
 /* footer end */
 
 /*  media screen start*/
@@ -494,7 +512,7 @@
     height: 600px;
   }
   .text{
-    padding-top: 5px;
+    padding-top:6px;
   }
   .dropdown-item:hover{
     background-color:black;
