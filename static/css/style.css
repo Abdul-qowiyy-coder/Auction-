@@ -69,7 +69,7 @@
   border-bottom: 1px solid black;
   /* transform: scale(1.1); */
   color: var(--dark-color);
-  transition: all .25s ease;
+  transition:0.25s;
 }
 #carousel-img{
   margin-top: 2em;
@@ -429,7 +429,7 @@
 }
 #cards{
   border: 1px solid #000;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 .card-title{
   font-family: var(--heading-font);
@@ -484,6 +484,7 @@
   
 }
 /* upcoming end */
+
 
 /* footer start */
  footer{

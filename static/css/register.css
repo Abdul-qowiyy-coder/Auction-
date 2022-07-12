@@ -97,6 +97,9 @@ input{
   font-family: var(--heading-font);
   color: var(--dark-color);
 }
+#heading{
+  color: black;
+}
 
  
  
