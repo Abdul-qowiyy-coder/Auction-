@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sitemap{
+  margin-top: 150px;
+}
+.sitemap dt{
+  font-family: 'Quicksand', sans-serif; 
+  font-size: 17px;
+}
+dd {
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+  margin-left: 1rem !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 450;
+  
+}
+dd ul{
+  list-style: circle ;
+}
+dd a{
+  color: black;
+}

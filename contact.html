@@ -34,8 +34,6 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="car.html">Cars</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="gadget.html">Gadget</a></li>
-                  <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="furniture.html">Funitures</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="painting.html">Painting</a></li>
@@ -44,7 +42,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link  mx-3">Contact us</a>
+                <a class="nav-link  mx-3" href="contact.html">Contact us</a>
               </li>
             </ul>
             <form class="d-flex justify-content-center  align-items-center">
@@ -73,73 +71,50 @@
 
  <!-- contact form start -->
  <section id="contact">
-  
-  <h1 class="section-header">Contact</h1>
-  
-  <div class="contact-wrapper">
-  
-  <!-- Left contact page --> 
-    
-    <form id="contact-form" class="form-horizontal" role="form" action="https://formspree.io/f/mrgjaynn" method="post">
-       
-      <div class="form-group">
-        <div class="col-sm-12">
-          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+  <div class="contact-box">
+    <div class="contact-links">
+      <h2>CONTACT</h2>
+      <div class="links">
+        <div class="link">
+          <a><i class="fa-brands fa-facebook" id="icons"></i></a>
         </div>
-      </div> <br>
-
-      <div class="form-group">
-        <div class="col-sm-12">
-          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+        <div class="link">
+          <a><i class="fa-brands fa-instagram" id="icons"></i></a>
         </div>
-      </div> <br>
-
-      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-      
-      <button class="btn  send-button" id="submit" type="submit" value="SEND">
-        <div class="alt-send-button">
-          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
-        </div> <br>
-      
-      </button>
-      
-    </form>
-    
-  <!-- Left contact page --> 
-    
-      <div class="direct-contact-container">
-
-        <ul class="contact-list">
-          <li class="list-item"><i class="fa-thin fa-location-dot"><span class="contact-text place">City, State</span></i></li>
-          
-          <li class="list-item"><i class="fa-solid fa-phone"><span class="contact-text phone"><a href="tel:+2348076874580" title="Give me a call">(234)8076874580</a></span></i></li>
-          
-          <li class="list-item"><i class="fa-thin fa-envelope"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">AkmarAuction@gmail.com</a></span></i></li>
-          
-        </ul>
-
-        <hr>
-        <ul class="social-media-list">
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-          </li>       
-        </ul>
-        <hr>
-
-        <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
-
+        <div class="link">
+          <a><i class="fa-brands fa-twitter" id="icons"></i></a>
+        </div>
+        <div class="link">
+          <a><i class="fa-brands fa-whatsapp" id="icons"></i></a>
+        </div>
       </div>
-    
+    </div>
+    <div class="contact-form-wrapper">
+      <form action="https://formspree.io/f/mrgjaynn" method="post">
+        <div class="form-item">
+          <input type="text" name="sender" required>
+          <label>Name:</label>
+        </div>
+        <div class="form-item">
+          <input type="text" name="email" required>
+          <label>Email:</label>
+        </div>
+        <div class="form-item">
+          <textarea class="" name="message" required></textarea>
+          <label>Message:</label>
+        </div>
+        <button class="submit-btn">Send</button>  
+      </form>
+    </div>
   </div>
-  
 </section>
  <!-- contact form end -->
+
+ <!-- map start -->
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6502594.5460870955!2d-119.306607!3d37.26917445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20USA!5e0!3m2!1sen!2sng!4v1657799346713!5m2!1sen!2sng" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+
+ <!-- map end -->
 
 
  <!-- footer start -->
@@ -165,18 +140,20 @@
     </div>
   </div>
   <div class="col-lg-3 col-md-3 col-sm-12">
-    <div class="links">
+    <div class="linkss">
       <h4 style=" color:black;">Information</h4>
-      <small><a href="" style="color: black;">Help Center</a></small><br>
-      <small><a href="" style="color: black;">Tweet Us</a></small><br>
-      <small><a href="" style="color: black;">Feed Back</a></small><br>
-      <small><a href="" style="color: black;">About Us</a></small><br>
+      <small><a href="About.html" style="color: black;">About Us </a></small><br>
+      <small><a href="contact.html" style="color: black;">Contact Us</a></small><br>
+      <small><a href="register.html" style="color: black;">Register</a></small><br>
+      <small><a href="sitemap.html" style="color: black;">SiteMap</a></small><br>
     </div>
   </div>
   <div class="col-lg-3 col-md-3 col-sm-12">
     <div class="Contact-us">
       <h4><a href="contact.html" style="color: black;">Contact Us</a></h4>
       <small>AkmarAuction@gmail.com</small><br>
+      <small>+2348076874580</small> <br>
+      <small> 113 California United State</small>
     </div>
   </div>
   <hr class="mt-5">

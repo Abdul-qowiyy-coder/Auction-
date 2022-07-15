@@ -505,6 +505,12 @@
   font-size: 1.9em;
   color: #000;
  }
+
+ h4{
+  font-family: var(--heading-font);
+  color: var(--dark-color);
+  font-weight: bold;
+ }
 /* footer end */
 
 /*  media screen start*/
