@@ -467,5 +467,8 @@ footer{
   .text{
     padding-top: 5px;
   }
+  #car-heading{
+    margin-top: 2em;
+  }
 }
 /* media screen end */

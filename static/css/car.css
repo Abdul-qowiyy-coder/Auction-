@@ -426,6 +426,11 @@ p{
 }
 /* product-card end */
 
+/* ONGOING MODAL START */
+
+
+/* ONGOING MODAL END */
+
 /* footer start */
 footer{
   width: 100%;
@@ -453,6 +458,7 @@ footer{
   font-weight: bold;
  }
 /* footer end */
+
 
 /* media screen start */
 @media (max-width:768px) {
